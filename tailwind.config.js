@@ -2,12 +2,12 @@ const { colors: defaultColors } = require('tailwindcss/defaultTheme');
 const colors = {
   ...defaultColors,
   ...{
-    "sm-black": {
+    "i-black": {
       "900": "#111",
       "800": "#222",
       "700": "#333"
     },
-    "sm-gray": {
+    "i-gray": {
       "100": "#EEE"
     }
   }
@@ -18,7 +18,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      colors
+      colors,
+      rotate: {
+        "-40": "-40deg"
+      }
     },
   },
   variants: {

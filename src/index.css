@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.default-hover {
+  @apply transition duration-300 opacity-80 hover:opacity-100;
+}
+
+.default-hover-group {
+  @apply transition duration-300 opacity-80 group-hover:opacity-100;
+}
+
+.default-button {
+  @apply flex items-center shadow p-2 whitespace-nowrap mt-2 rounded-md w-36 opacity-90 hover:opacity-100 transition duration-300;
+}
+
+.default-button-icon {
+  @apply mr-2 text-xl;
+}
+
+.default-chip {
+  @apply flex items-center rounded-full border-2 border-i-gray-100 py-1 px-3 whitespace-nowrap hover:bg-gray-50 transition duration-300;
+}

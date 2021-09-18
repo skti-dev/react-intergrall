@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
 import Settings from "./Settings";
 
-function IconSettings() {
+const IconSettings = () => {
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const toggleSettings = () => {
     setIsSettingsOpen(!isSettingsOpen)

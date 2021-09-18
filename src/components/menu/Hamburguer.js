@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Menu() {
+const Menu = () => {
   const [isOpen, setIsOpen] = useState(false);
   const genericHamburgerLine = `h-0.5 w-5 bg-i-black-800 rounded-full transition ease transform duration-300`;
 

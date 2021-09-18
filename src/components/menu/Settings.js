@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserCircle, faUtensils, faSignOutAlt, faImage } from "@fortawesome/free-solid-svg-icons";
 
-function Settings(props) {
+const Settings = (props) => {
   return (
     <div 
       className={`absolute -bottom-80 right-4 w-96 z-10

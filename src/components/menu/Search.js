@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import Hamburguer from "./Hamburguer";
 
-function Search() {
+const Search = () => {
   return(
     <div className="flex items-center bg-white m-2 p-2 rounded shadow-sm">
       <Hamburguer />

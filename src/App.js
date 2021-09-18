@@ -1,6 +1,6 @@
 import Desktop from "./views/Desktop";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Desktop />

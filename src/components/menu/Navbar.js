@@ -7,7 +7,7 @@ const Navbar = () => {
       <Search />
       <IconSettings />
     </nav>
-  )
-}
+  );
+};
 
 export default Navbar;

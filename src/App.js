@@ -6,6 +6,6 @@ const App = () => {
       <Desktop />
     </div>
   );
-}
+};
 
 export default App;

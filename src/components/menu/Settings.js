@@ -29,7 +29,7 @@ const Settings = ({ state, name, login }) => {
         </button>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Settings;

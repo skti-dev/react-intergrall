@@ -10,7 +10,7 @@ const Menu = () => {
       <div className={`${genericHamburgerLine} ${isOpen ? "opacity-0" : "default-hover-group" }`} />
       <div className={`${genericHamburgerLine} ${isOpen ? "transform -rotate-40 -translate-y-1.5  default-hover-group" : "default-hover-group" }`} />
     </button>
-  )
-}
+  );
+};
 
 export default Menu;

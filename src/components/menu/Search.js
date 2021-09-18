@@ -9,7 +9,7 @@ const Search = () => {
       <input className="focus:outline-none" name="search" placeholder="Pesquisar" />
       <FontAwesomeIcon icon={faSearch} className="ml-2 text-xl text-i-black-800 cursor-pointer transition duration-300 opacity-80 hover:opacity-100" />
     </div>
-  )
-}
+  );
+};
 
 export default Search;

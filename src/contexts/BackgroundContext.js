@@ -7,7 +7,7 @@ const BackgroudProvider = ({ children }) => {
     <BackgroundContext.Provider value={background, setBackground}>
       {children}
     </BackgroundContext.Provider>
-  )
+  );
 };
 
 export default { BackgroundContext, BackgroudProvider };

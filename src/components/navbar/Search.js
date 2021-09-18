@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import Hamburguer from "./Hamburguer";
+import Hamburguer from "../menu/Hamburguer";
 
 const Search = () => {
   return(

@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUserCircle, faUtensils, faSignOutAlt, faImage } from "@fortawesome/free-solid-svg-icons";
+import { faUserCircle, faUtensils, faSignOutAlt } from "@fortawesome/free-solid-svg-icons";
+import BackgroundChanger from "./BackgroundChanger"
 
 const Settings = ({ state, name, login }) => {
   return (
@@ -14,10 +15,7 @@ const Settings = ({ state, name, login }) => {
         <h1 className="text-2xl mx-2 mt-2 truncate" title={name}>{name}</h1>
         <h2 className="text-xl mx-2 mb-2 truncate" title={login}>{login}</h2>
         <hr className="w-full h-1" />
-        <button title="Editar plano de fundo" className="my-2 default-chip">
-          <FontAwesomeIcon icon={faImage} className="default-button-icon" />
-          Editar plano de fundo
-        </button>
+        <BackgroundChanger />
         <hr className="w-full h-1" />
         <button title="Marcar ponto" className="default-button bg-blue-500 text-white"> 
           <FontAwesomeIcon icon={faUtensils} className="default-button-icon" />

@@ -6,6 +6,10 @@
   @apply transition duration-300 opacity-80 hover:opacity-100;
 }
 
+.default-hover-2 {
+  @apply transition duration-300 opacity-70 hover:opacity-100;
+}
+
 .default-hover-group {
   @apply transition duration-300 opacity-80 group-hover:opacity-100;
 }
